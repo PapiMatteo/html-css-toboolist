@@ -72,28 +72,25 @@ hr {
     list-style: none;
     margin-left: 10px;
 }
-
-.check {
+.circle {
     display: inline-block;
-    color: green;
     text-align: center;
-    background-color: white;
     width: 20px;
     height: 20px;
     line-height: 20px;
-    border: 1px solid lightgreen;
+    border: 1px solid;
     border-radius: 50%;
 }
-.cross {
-    display: inline-block;
-    color: red;
-    text-align: center;
+
+.check {
+    color: green;
     background-color: white;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border: 1px solid red;
-    border-radius: 50%;
+    border-color: lightgreen;
+}
+.cross {
+    color: red;
+    background-color: white;
+    border-color:  red;
 }
 li{
     margin-top: 15px;
